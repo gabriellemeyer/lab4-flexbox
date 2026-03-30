@@ -1,75 +1,76 @@
-.box-1 
-{display: flex;
+.equal-2 {
+  display: flex;
   padding: 10px;
   background: rgb(127, 2, 37);
-  border: 10px solid rgb(186, 107, 126);
-  gap: 10px;}
-
-.box-1 
-div {background: rgb(255, 0, 76);
   gap: 10px;
-  padding: 10px;
-  flex-grow: 1;
-  height: 50px;}
+}
 
-.box-2 {display: flex;
+.equal-2 div {
+  background: rgb(255, 0, 76);
+  flex-grow: 1;
+  height: 50px;
+}
+
+.equal-3 {
+  display: flex;
   padding: 15px;
   background: rgb(203, 45, 87);
-  border: 10px solid rgb(144, 4, 48);
-  gap: 15px;}
-
-.box-2 
-div {background: rgb(125, 4, 44);
-  flex-grow: 1;
+  gap: 15px;
   height: 50px;
-  padding: 15px;
-  gap: 15px;}
+}
 
-.box-3
-{display: flex;
+.equal-3 div {
+  background: rgb(125, 4, 44);
+  flex-grow: 1;
+}
+
+.unequal-3 {
+  display: flex;
   padding: 12px;
   background-color: rgb(119, 25, 92);
-  border: 12px solid rgb(176, 120, 149);
-  gap: 12px;}
-
-.box-3 
-div {background: rgb(223, 131, 152);
-  height: 50px;
-  padding: 12px;
   gap: 12px;
-  border: 2px solid rgb(205, 5, 88);}
+  height: 50px;
+}
 
-.box-3 
-div:first-child
-{flex-grow: 2;}
+.unequal-3 div {
+  background: rgb(223, 131, 152);
+  border: 2px solid rgb(205, 5, 88);
+}
 
-.box-3 
-div:nth-child(2){flex-grow: 1;}
+.unequal-3 div:first-child {
+  flex-grow: 2;
+}
 
-.box-3 
-div:last-child{flex-grow: 1;}
- 
-.box-4 
-{display: flex;
+.unequal-3 div:nth-child(2) {
+  flex-grow: 1;
+}
+
+.unequal-3 div:last-child {
+  flex-grow: 1;
+}
+
+.equal-4 {
+  display: flex;
   height: 50px;
   padding: 12px 12px 6px 12px;
   background: rgb(124, 1, 96);
-  gap: 12px;}
+  gap: 12px;
+}
 
-.box-4 
-div {background: rgb(106, 68, 86);
+.equal-4 div {
+  background: rgb(106, 68, 86);
   flex-grow: 1;
-  border: 2px solid rgb(0, 0, 0);}
+  border: 2px solid rgb(0, 0, 0);
+}
 
-.footer-content 
-{padding: 6px 12px 12px 12px;
+.footer-content {
+  padding: 6px 12px 12px 12px;
   background: rgb(109, 18, 50);
-  height: 50px;}
-
-.footer-content 
-div {background: rgb(228, 6, 58);
   height: 50px;
-  border: 2px solid rgb(0, 0, 0);}
+  border: 2px solid rgb(0, 0, 0);
+}
 
-.footer 
-{border: 10px solid rgb(218, 10, 197);}
+.footer-content div {
+  background: rgb(228, 6, 58);
+  height: 50px;
+}
